@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+}
+
+.hero_title {
+  font-size: 72px;
+}
+.hero {
+  width: 1440px;
+  height: 1998px;
+  padding:;
+  margin-bottom: 80px;
+}
+
+.gallery {
+}
+
+.cards {
+  display: flex;
+  gap:;
+}
+
+.footer {
+  border: 2px solid black;
+  padding: 40px;
+  margin: 20px;
+}
