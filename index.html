@@ -3,23 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mariana Hernández</title>
+    <title>Mi Portafolio</title>
 
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
   </head>
 
-  <body>
-    <header class="header">Header</header>
-
+  <body class="page">
     <main class="content">
       <section class="profile">
         <div class="profile__info">
           <div>
-            <h1 class="Mariana Hernandez"></h1>
-            <p>Desarrolladora Full-Stack Junior | TypeScript, React, Node.js</p>
+            <h1 class="title">Mariana Hernández</h1>
+            <p class="sub__title">
+              Desarrolladora Full-Stack Junior | TypeScript, React, Node.js
+            </p>
           </div>
 
-          <p>
+          <p class="description">
             Desarrolladora web junior con experiencia práctica creando
             interfaces limpias y responsivas con HTML, CSS, JavaScript y React,
             así como implementando lógica básica de back-end. Ha trabajado en
@@ -30,87 +30,148 @@
             oportunidades para crecer como desarrolladora.
           </p>
 
-          <ul>
+          <ul class="card__actions">
             <li>
-              <a>Descargar CV</a>
+              <a href="#" class="button__action">Descargar CV</a>
             </li>
 
             <li>
-              <a>Enlace a GitHub</a>
+              <a href="#" class="button__action">Enlace a GitHub</a>
             </li>
 
             <li>
-              <a>Hablemos</a>
+              <a href="#" class="button__action">Hablemos</a>
             </li>
           </ul>
         </div>
-
-        <img src="" alt="" class="" />
+        <div class="hero">
+          <div class="hero__glow"></div>
+        </div>
+        <div class="card__picture">
+          <img src="./images/Subtract.png" alt="Mi foto" />
+        </div>
       </section>
 
       <section class="gallery">
         <h2>Habilidades y herramientas</h2>
         <ul>
           <li>
-            <img src="" alt="" class="" />
+            <img src="./images/Group 120570.png" alt="" />
           </li>
 
           <li>
-            <img src="" alt="" class="" />
+            <img src="./images/Group 2087326844.png" alt="" />
           </li>
 
           <li>
-            <img src="" alt="" class="" />
+            <img src="./images/Group 120568.svg" alt="" />
           </li>
           <li>
-            <img src="" alt="" class="" />
-          </li>
-
-          <li>
-            <img src="" alt="" class="" />
+            <img src="./images/Group 2087326846.png" alt="" />
           </li>
 
           <li>
-            <img src="" alt="" class="" />
+            <img src="./images/Group 2087326847.png" alt="" />
+          </li>
+
+          <li>
+            <img src="./images/Group 2087326848.png" alt="" />
           </li>
         </ul>
       </section>
 
       <section class="cards">
         <h2>Proyectos Destacados</h2>
-        <div>
-          <div>
-            <div>
-              <div></div>
-              <div>
-                <img src="" alt="" />
-                <img src="" alt="" />
-              </div>
+        <div class="cards__projects">
+          <div class="project__card">
+            <div class="project__cards-images">
+              <img
+                class="project__card-imag"
+                src="./images/Rectangle 3.png"
+                alt=""
+              />
+              <img
+                class="project__logo"
+                src="./images/Group 120570.png"
+                alt=""
+              />
+              <img
+                class="project__logo-2"
+                src="./images/Group 2087326844.png"
+                alt=""
+              />
             </div>
-            <div></div>
+
+            <h3 class="project__card-title">Página web de una cafetería</h3>
+            <p class="project__description">
+              Desarrollo de una landing page responsiva para una cafetería
+              siguiendo un brief de diseño. Incluye estructura semántica,
+              maquetación con Flexbox, creación de secciones nuevas y un
+              formulario de contacto funcional.Logro: Implementé desde cero el
+              diseño completo de la página, organicé el proyecto con buenas
+              prácticas y publiqué la versión final utilizando GitHub Pages.
+            </p>
+            <ul>
+              <li>
+                <a href="#" class="button__link"
+                  ><img src="./images/Group 2087326849.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#" class="button__link-2"
+                  ><img src="./images/Group 2087326852.png" alt=""
+                /></a>
+              </li>
+            </ul>
           </div>
-          <div>
-            <div>
-              <div></div>
-              <div>
-                <img src="" alt="" />
-                <img src="" alt="" />
-              </div>
+
+          <div class="project__card">
+            <div class="project__cards-images">
+              <img
+                class="project__card-imag"
+                src="./images/Rectangle 5.png"
+                alt=""
+              />
+              <img
+                class="project__logo"
+                src="./images/Group 120568.svg"
+                alt=""
+              />
+              <img
+                class="project__logo-2"
+                src="./images/Frame 2087328170.png"
+                alt=""
+              />
             </div>
-            <div></div>
+
+            <h3 class="project__card-title">Mi proyecto</h3>
+            <p class="project__description">Descripción del proyecto</p>
+
+            <ul>
+              <li>
+                <a href="#" class="button__link"
+                  ><img src="./images/Group 2087326849.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#" class="button__link-2"
+                  ><img src="./images/Group 2087326852.png" alt=""
+                /></a>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <h2>Contacto</h2>
-      <a>student@tripleten.com</a>
-      <div>
-        <a><img src="/images/Negative.png" alt="in" /></a>
-        <a><img src="/images/FacebookNegative.png" alt="facebook" /></a>
-        <a><img src="/images/IgNegative.png" alt="instagram" /></a>
-        <a><img src="/images/XNegative.png" alt="x" /></a>
+      <h5>Contacto</h5>
+      <p>student@tripleten.com</p>
+      <div class="redes">
+        <a><img src="./images/Negative.png" alt="in" /></a>
+        <a><img src="./images/FacebookNegative.png" alt="facebook" /></a>
+        <a><img src="./images/IgNegative.png" alt="instagram" /></a>
+        <a><img src="./images/XNegative.png" alt="x" /></a>
       </div>
     </footer>
   </body>
